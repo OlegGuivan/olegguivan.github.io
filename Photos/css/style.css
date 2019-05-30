@@ -1,0 +1,162 @@
+*{
+	scroll-behavior: smooth;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Constantia';
+}
+section{
+	height: 100vh;
+	background: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section.banner{
+	background: url(../img/bg.jpg);
+	background-size: cover;
+}
+section.banner .content{
+	text-align: center;
+}
+section.banner .content h1{
+	font-size: 120px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+section.banner .content a {
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 10px 40px;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+section.banner .content a:hover{
+	background: #ff0;
+	border: 2px solid black;
+	color: black;
+}
+.post{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	background: #fff;
+
+}
+.post img{
+	object-fit: cover;
+}
+.post .btn{
+	position: absolute;
+	background: #ff0;
+    border: 2px  solid black;
+	color: black;
+	padding: 10px 40px;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.post .btn.prev{
+	top: -20px;
+	left: -50px;
+} 
+.post .btn.next{
+	top: 460px;
+	left: 720px;
+} 
+.post-title{
+	position: absolute;
+	background: rgba(0,0,0,9);
+	color: #fff;
+	bottom: 20px;
+	left: 20px;
+	font-size: 32px;  
+}
+.post-date{
+	position: absolute;
+	border: 2px solid #262626;
+	top: -50px;
+	right: 50px;
+	background: #ff0;
+	color: #262626;
+	padding: 20px;
+}
+.post-date span{
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.post-date span:nth-child(1){
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 15px; 
+}
+.post-date span:nth-child(2),
+.post-date span:nth-child(3){
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px; 
+}
+.more-1{
+	position: absolute;
+	border: 2px solid black;
+	font-size: 25px;
+	top: 520px;
+	right: 350px;
+	color: black;
+	background: #ff0;
+	padding: 10px;
+}
+.more-2{
+	position: absolute;
+	border: 2px solid black;
+	font-size: 25px;
+	top: 520px;
+	right: 350px;
+	color: black;
+	background: #ff0;
+	padding: 10px;
+}
+.more-3{
+	position: absolute;
+	border: 2px solid black;
+	font-size: 25px;
+	top: 520px;
+	right: 350px;
+	color: black;
+	background: #ff0;
+	padding: 10px;
+}
+.more-4{
+	position: absolute;
+	border: 2px solid black;
+	font-size: 25px;
+	top: 520px;
+	right: 350px;
+	color: black;
+	background: #ff0;
+	padding: 10px;
+}
+#post1{
+	background: url(../img/bg1.jpg);
+	background-size: cover;
+}
+#post2{
+	background: url(../img/bg2.jpg);
+	background-size: cover;
+}
+#post3{
+	background: url(../img/bg3.jpg);
+	background-size: cover;
+}
+#post4{
+	background: url(../img/bg4.jpg);
+	background-size: cover;
+}
